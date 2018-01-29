@@ -1,0 +1,62 @@
+/*
+ Theme Name:   Not Quite A Gap Year
+ Theme URI:    http://notquiteagapyear.co.uk/
+ Description:  A child theme of square
+ Author:       Ashley Coles
+ Template:     square
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+*/
+#primary {
+    width: 100%;
+}
+.archive .sq-site-content .sq-container, .home .sq-site-content .sq-container {
+    width: 100%;
+}
+.sq-site-content .sq-container, .archive .sq-main-header .sq-container {
+    width: 63%;
+}
+.sq-main-header {
+    padding: 375px 0 65px;
+    background-position: center center;
+    background-size: 100%;
+}
+.entry-figure {
+    background-color: #fff;
+}
+@media screen and (min-width: 768px) {
+    .entry-figure a img {
+        width: 63%;
+    }
+    .sq-post-wrapper {
+        width: 57%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sq-main-header {
+        padding: 190px 0 60px;
+        background-size: 150%;
+    }
+    .sq-main-title {
+        margin-top: 0 !important;
+        margin-bottom: -33px;
+    }
+    .archive .sq-main-header .sq-container {
+        width: 100%;
+    }
+    .sq-post-wrapper {
+        margin-top: -50px;
+        width: 96%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .sq-main-header {
+        background-size: 170%;
+    }
+}
+.sq-main-title {
+    text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+    margin-top: -33px;
+}
