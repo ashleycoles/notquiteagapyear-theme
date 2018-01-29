@@ -1,0 +1,15 @@
+.fullwidth {
+    width: 100% !important;
+}
+#primary {
+    width: 100%;
+}
+.sq-site-content .sq-container {
+    width: 63%;
+}
+@media screen and (max-width: 768px) {
+    .sq-post-wrapper {
+        margin-top: -50px;
+        width: 96%;
+    }
+}

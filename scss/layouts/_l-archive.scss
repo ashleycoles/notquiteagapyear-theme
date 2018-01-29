@@ -1,0 +1,18 @@
+
+
+.sq-post-wrapper {
+    @media screen and (min-width: 768px) {
+        width: 57%;
+    }
+}
+
+.entry-figure {
+    background-color: #fff;
+    a {
+        img {
+            @media screen and (min-width: 768px) {
+                width: 63%;
+            }
+        }
+    }
+}

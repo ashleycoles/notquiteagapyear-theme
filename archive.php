@@ -10,13 +10,13 @@ get_header(); ?>
 <header class="sq-main-header">
 	<div class="sq-container">
 		<?php
-			the_archive_title( '<h1 class="sq-main-title">', '</h1>' );
+			the_archive_title( '<h1 class="sq-main-title gutter">', '</h1>' );
 			the_archive_description( '<div class="taxonomy-description">', '</div>' );
 		?>
 	</div>
 </header><!-- .sq-main-header -->
 
-<div class="sq-container sq-clearfix">
+<div class="sq-container sq-clearfix fullwidth">
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
